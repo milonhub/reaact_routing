@@ -1,16 +1,27 @@
-.App {
-  text-align: center;
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #282c34;
+  font-size: 18px;
+  padding: 1rem;
+}
+.link {
+  margin: 0rem 1rem;
+  color: white;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link:hover{
+  cursor: pointer;
+  color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav .active{
+  color:goldenrod;
 }
 
 .App-header {
